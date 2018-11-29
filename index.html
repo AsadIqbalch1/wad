@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Quiz 2</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div>
-    <img src="pet.jpeg">
-    <p>is it cute <i class="fab fa-wolf-pack-battalion"></i></p>
-</div>
+    <div class="quiz-wrapper">
+        <h1>Choose the correct answer</h1>
+        <div id="question"></div>
+        <ul id="choice-list"></ul>
+        <div id="quiz-message"></div>
+        <div id="result"></div>
+        <button id="next-btn" onclick="displayNext()">Next Question</button>
+    </div>
+<script src="js/script.js"></script>
 </body>
 </html>
